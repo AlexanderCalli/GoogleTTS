@@ -1,0 +1,47 @@
+# Python virtual environment
+tts_env/
+
+# Credentials and sensitive information
+*.json
+*.key
+*.pem
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Audio files (if your project generates them)
+*.mp3
+*.wav
+*.ogg
+
+# Dependency directories (if you're using npm or yarn)
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output (if applicable)
+/dist
+/build
+
+# Jupyter Notebook
+.ipynb_checkpoints
